@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: google-sheets-mcp
+    runtime: docker
+    plan: free
+    envVars:
+      - key: TRANSPORT
+        value: http
+      - key: PORT
+        value: "3000"
+      - key: GOOGLE_SERVICE_ACCOUNT_KEY
+        sync: false

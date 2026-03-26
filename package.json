@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.28.0",
+    "express": "^5.2.1",
     "googleapis": "^148.0.0",
     "zod": "^3.23.0"
   },
   "devDependencies": {
-    "typescript": "^5.7.0",
-    "@types/node": "^22.0.0"
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
   }
 }
