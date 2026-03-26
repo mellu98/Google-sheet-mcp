@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "google-sheets": {
+      "type": "http",
+      "url": "https://google-sheet-mcp-sw2s.onrender.com/mcp"
+    }
+  }
+}
